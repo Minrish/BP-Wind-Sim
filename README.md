@@ -1,2 +1,12 @@
 # BP-Wind-Sim
-This is a 
+This is the GitHub repository for the Pennsylvania State University CMPSC483W Capstone course for BP's Wind Farm Simulation Project
+# Initial Problem Statement 
+A push to switch from fossil fuels to renewable energy sources is sweeping the energy industry. Wind energy is a source of renewable energy that BP is working on incorporating into their business model.  The wind energy industry is monopolized by a few companies that use proprietary processes for designing, optimizing, installing, monitoring, and maintaining their wind turbine and wind farms.  BP would like to develop a simulation application that uses several wind turbine and wind farm models that adequately matches their wind farm operations. This simulation will allow perturbation of several inputs as happens in the real world and allow visualization and data collection for the simulation inputs and on a variety of important outputs.  
+
+Wind turbines are most efficient when angled directly into the oncoming wind. Blades on a wind turbine act as air foils to create a pressure difference along the blades, driving motion. As the turbine spins, it generates a wake of turbulent air behind the turbine. This wake of air of the leading turbine can pose mechanical risks to turbines in the wake, as well as deplete the efficiency of their functioning. Operating wind turbines at a different angle of attack with respect to the oncoming wind will modify the wake impact of the leading turbine, potentially allowing for more optimal efficiency and energy output of the downwind turbines and as a result the overall wind farm.   
+
+# Project Goals and Expectations 
+The goal of the simulation would be to use models available from BP, open source and in industry to adequately simulate the operation of a wind turbine and by extension a wind farm. Then use actual site layout and operational data from BP to validate the outputs from the different models where possible, it is expected the outputs from some models will be more detailed or give different parameters when compared to others.  
+
+# Future Development
+This will be a steppingstone that BP can use to as a training tool to make engineers more familiar with design and operations of wind turbines, wind farms. Eventually this model will be extended to perform monitoring where the models can be run in parallel with actual operations to detect abnormalities where significant deviations between the model and actual operations occur. It is expected this simulation can then be scaled up to develop a cloud based online optimizer which can be used for closed loop control to minimize the wake impact at a wind farm and generate increased energy from BP on shore and planned offshore wind farms.  

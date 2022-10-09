@@ -11,8 +11,30 @@ npm -v
 node -v
 npx create-react-app bp-wind-simluatior-application
 
+# Dependencies
+npm install node-sass
+npm install react-router-dom
+npm install --save styled-components
+npm install --save react-icons
+
+npm install --global yarn
+yarn --version
+
+npm install react-icons --save
+
+# How to fix "running scripts is disabled on this system"?
+First, Open PowerShell with Run as Administrator.
+Then, run this command in PowerShell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+After that type Y and press Enter.
+
+yarn install
+yarn start
+
+# To clean yarn build cache
+yarn cache clean --all
+
 # React Operation
 cd bp-wind-simluator-application
 npm start
-
 Ctrl-C -> Y/N to Terminate/Continue

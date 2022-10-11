@@ -34,16 +34,20 @@ function Home() {
       persent: "88,626 kWh",
     },
     {
-      today: "Predicted Monthly Production",
-      persent: "537,109 kWh",
-    },
-    {
-      today: "Predicted Total Production",
-      persent: "567,632,691 kWh",
-    },
-    {
       today: "Reactive Power",
       persent: "-55,260.49 VAr",
+    },
+    {
+      today: "Moment",
+      persent: "N/A",
+    },
+    {
+      today: "Torque",
+      persent: "N/A",
+    },
+    {
+      today: "Life Cycle Load",
+      persent: "N/A",
     }
   ];
 

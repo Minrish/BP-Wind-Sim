@@ -43,3 +43,11 @@ yarn cache clean --all
 cd bp-wind-simluator-application
 npm start
 Ctrl-C -> Y/N to Terminate/Continue
+
+# To get it working, run following commands in terminal
+git clone https://github.com/Minrish/BP-Wind-Sim.git
+cd BP-Wind-Sim\bp-wind-simulator
+npx clear-npx-cache
+npm install
+npm audit fix --force
+npm start

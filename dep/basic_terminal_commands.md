@@ -1,4 +1,6 @@
 # GitHub Operation
+git config core.autocrlf true
+
 git add --all
 git commit -m "UPDATE_CHANGES_HERE"
 git push
@@ -10,6 +12,9 @@ pip install py_wake
 npm -v
 node -v
 npx create-react-app bp-wind-simluatior-application
+
+update react to v5.0.1
+npm audit fix --force
 
 # Dependencies
 npm install node-sass

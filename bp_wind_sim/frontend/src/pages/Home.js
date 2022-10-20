@@ -213,7 +213,7 @@ export default function Home() {
                 <Paragraph className="lastweek" style={{ marginBottom: 24 }}>
                   Using data from Flat Ridge 2 
                 </Paragraph>
-                <iframe title="Flat Ridge 2 Jupyter Notebook" src="Flat Ridge 2.html"></iframe>
+                <iframe title="Flat Ridge 2 Jupyter Notebook" src="./Flat Ridge 2.html"></iframe>
                   
                 {/* Anchor link */}
                 <a href="https://github.com/Minrish/BP-Wind-Sim" target="_blank" rel="noreferrer">

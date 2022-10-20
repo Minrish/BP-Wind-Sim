@@ -1,6 +1,6 @@
 // import { Layout, Row, Col } from "antd";
 import { Layout } from "antd";
-
+import React from "react";
 
 function Footer() {
   const { Footer: AntFooter } = Layout;

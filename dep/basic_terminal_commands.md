@@ -51,3 +51,13 @@ npx clear-npx-cache
 npm install
 npm audit fix --force
 npm start
+
+# To get it working with django
+in two seperate terminals
+cd BP-Wind-Sim/bp_wind_sim/frontend
+run npm dev
+in another terminal 
+cd BP-Wind-Sim/bp_wind_sim 
+python manage.py runserver
+enter http://127.0.0.1:8000/ in your web browser
+any time you save a file it should automatically update

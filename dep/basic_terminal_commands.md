@@ -55,7 +55,7 @@ npm start
 # To get it working with django
 in two seperate terminals
 cd BP-Wind-Sim/bp_wind_sim/frontend
-run npm dev
+npm run dev
 in another terminal 
 cd BP-Wind-Sim/bp_wind_sim 
 python manage.py runserver

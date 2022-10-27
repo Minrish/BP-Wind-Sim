@@ -2,6 +2,8 @@ from py_wake.wind_turbines import WindTurbine
 from py_wake.wind_turbines.power_ct_functions import PowerCtTabular
 from py_wake import BastankhahGaussian
 from py_wake.site import XRSite
+from py_wake.wind_farm_models import PropagateDownwind
+import xarray as xr
 
 
 class turbine:
@@ -24,8 +26,9 @@ class WindFarm:
         self.turbineType = turbineType
         self.wd = wd
         self.ws = ws
-        wf_model = BastankhahGaussian(self.site, self.turbineType)
-        self.sim_res = wf_model(x = self.x_coor, y = self.y_coor, h = self.height, type = self.turbineType, wd = self.wd, ws = self.ws)
+        """wf_model = BastankhahGaussian(self.site, self.turbineType)"""
+        wf_model = PropagateDownwind(self.site, self,turbineType)
+        self.sim_res = wf_model(x = self.x_coor, y = self.y_coor, h = self.height, type = 0, wd = self.wd, ws = self.ws)
     
     def sim_res_array(self):
         return self.sim_res
